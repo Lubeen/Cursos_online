@@ -6,3 +6,4 @@ while (contador <= 5):
        if contador == 4:
               nome = str(input('Digite seu nome'))
 print(nome)
+# editando
