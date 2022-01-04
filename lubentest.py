@@ -14,3 +14,5 @@ for c in numeros:
         sleep(0.5)
 print('A quantidade de numeros pares foram de {}'.format(p))
 print('A quantidade de numeros impares foram de {}'.format(i))
+# aprendendo mecher com Git e Github em 04/01/2022
+var = 0
