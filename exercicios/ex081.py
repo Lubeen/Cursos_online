@@ -1,7 +1,7 @@
 lista = []
 cont = 0
 while True:
-    num = int(input('Digite um valor'))
+    num = int(input('Digite um valor :'))
     if cont == 0 or num < lista[-1]:
         lista.append(num)
     else:
