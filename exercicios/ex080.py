@@ -12,4 +12,4 @@ for c in range(0, 5):
             pos += 1
 print(f'os valores digitados em ordem foram {lista}')
 # lucas vai programar muito!
-# Anderson o cara
+# Anderson o cara branca
