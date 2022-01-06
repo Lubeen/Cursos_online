@@ -1,4 +1,4 @@
-lista = []
+'''lista = []
 cont = 0
 while True:
     num = int(input('Digite um valor :'))
@@ -22,4 +22,21 @@ if 5 in lista:
 else:
     print(f'O valor 5 nao foi digitado!')
 print(f'A quantidade de numeros digitados foi {len(lista)}')
-print(f'A lista em ordem decrescente é {lista}')
+print(f'A lista em ordem decrescente é {lista}')'''
+lista = []
+cont = 0
+while True:
+    lista.append(int(input('Digite um valor :')))
+    c = ' '
+    cont += 1
+    while c not in 'SN':
+        c = input('Voce quer continuar ? [S/N]').strip().upper()[0]
+    if c == 'N':
+        break
+if 5 in lista:
+    print(f'O valor 5 foi digitado ')
+else:
+    print(f'O valor 5 nao foi digitado!')
+print(f'A quantidade de numeros digitados foi {len(lista)}')
+lista.sort(reverse=True)
+print(f'Os valores em forma decrescente são {lista}')
