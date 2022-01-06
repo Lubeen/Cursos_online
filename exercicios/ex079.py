@@ -11,4 +11,5 @@ while True:
         continuar = input('Voce quer continuar [S/N]').upper().strip()[0]
     if continuar == 'N':
         break
-print(f'{sorted(lista)}')
+lista.sort()
+print(f'{lista}')
