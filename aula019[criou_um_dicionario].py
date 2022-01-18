@@ -7,7 +7,7 @@ print(filme.values())
 print(filme.keys())
 print(filme.items())
 for k, v in filme.items():
-    print(f'o {k} é {v}')'''
+    print(f'o {k} é {v}')'''' criou aqui'
 '''pessoas = {'nome':'gustavo','sexo':'M','idade':22}
 print(f'O {pessoas["nome"]} tem {pessoas["idade"]} anos.')
 del pessoas['sexo']
