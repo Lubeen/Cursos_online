@@ -30,6 +30,8 @@ print()
     for k,v in e.items():
         print(f'O campo {k} tem valor {v}.')'''
 for e in brasil:
+    print(e)
+for e in brasil:
     for v in e.values():
         print(v, end=' ')
     print()
