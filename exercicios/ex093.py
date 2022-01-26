@@ -18,7 +18,6 @@ while True:
     jogador['gols'] = lista[:]
     jogador['total'] = total
     jogadores.append(jogador.copy())
-    print(jogador)
     jogador.clear()
     total = 0
     lista.clear()
@@ -42,4 +41,5 @@ while cont < len(jogadores[0]["nome"]):
         for v in i.values():
             print(f'Foi um total de {v[3]} gols.')
     cont += 1
+
 
