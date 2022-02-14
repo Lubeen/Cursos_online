@@ -7,7 +7,7 @@ from datetime import datetime
 trabalhador = {}
 trabalhador['nome'] = input('Nome: ')
 ano = int(input('ano de nascimento: '))
-trabalhador['idade'] = 2022 - ano
+trabalhador['idade'] = datetime.now().year - ano
 trabalhador['carteira'] = int(input('Carteira de trabalho (0 nao tem)'))
 if trabalhador['carteira'] != 0:
     trabalhador['ano_contratacao'] = int(input('Ano de contratacao: '))
