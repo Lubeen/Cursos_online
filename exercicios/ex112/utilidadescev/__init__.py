@@ -1,0 +1,1 @@
+from Estudos.exercicios.ex112.utilidadescev import moeda, dado
