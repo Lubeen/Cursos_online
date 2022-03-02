@@ -1,0 +1,8 @@
+Luan;22
+Lucas;26
+Leticia;24
+Junior;28
+Angelina;58
+Raimunda;71
+Ana;27;0
+;0
