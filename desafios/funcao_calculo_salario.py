@@ -18,3 +18,6 @@ valor_total = float(input('Qual o valor total que voce vendeu? R$'))
 salario_fixo = float(input('Qual seu salario fixo? R$'))
 resposta = Calculo_salario(carro_vendido, valor_total, salario_fixo)
 print(f'Seu salario vai ser R${resposta}')
+
+
+
