@@ -1,0 +1,1 @@
+'''Faça uma app que solicite as 4 notas de um aluno apresente o seu nome e sua média e informe se o aluno está aprovado ou reprovado.'''
