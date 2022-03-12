@@ -5,6 +5,8 @@ def maior_menor(*n):
     for p in range(1, 4):
         valor = int(input('Digite um numero inteiro: '))
         lista.append(valor)
+
+    numeros = [numero for numero in range(3)]
     return lista
 
 

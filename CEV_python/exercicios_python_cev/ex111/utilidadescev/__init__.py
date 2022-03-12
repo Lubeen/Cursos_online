@@ -1,0 +1,1 @@
+from Estudos.CEV_python.exercicios_python_cev.ex111.utilidadescev import moeda

@@ -1,5 +1,5 @@
-from Estudos.exercicios.ex115.lib.interface import *
-from Estudos.exercicios.ex115.lib.arquivo import *
+from Estudos.CEV_python.exercicios_python_cev.ex115.lib.interface import *
+from Estudos.CEV_python.exercicios_python_cev.ex115.lib.arquivo import *
 from time import sleep
 
 arq = 'cursoemvideo.txt'

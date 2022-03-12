@@ -1,0 +1,1 @@
+from Estudos.CEV_python.exercicios_python_cev.ex112.utilidadescev import dado

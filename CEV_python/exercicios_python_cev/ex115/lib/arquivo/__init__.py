@@ -1,4 +1,4 @@
-from Estudos.exercicios.ex115.lib.interface import cabecalho
+from Estudos.CEV_python.exercicios_python_cev.ex115.lib.interface import cabecalho
 
 def arquivoExiste(nome):
     try:
