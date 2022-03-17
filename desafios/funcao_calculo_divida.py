@@ -3,8 +3,8 @@ O usuário deve informar o valor original da dívida (ex. R$ 50,00), a quantidad
 o valor da multa por dia de atraso (ex. R$ 0,25).'''
 
 
-def calculo_divida(valor, dias):
-    multa = dias_atraso * 0.25
+def calculo_divida(valor, dias, taxa):
+    multa = dias_atraso * taxa
     divida = valor_original + multa
     return divida
 
@@ -13,5 +13,6 @@ def calculo_divida(valor, dias):
 # Programa principal
 valor_original = float(input('Qual o valor original da dívida? '))
 dias_atraso = float(input('Quantos dias está em atraso? '))
-valor_quitacao = calculo_divida(valor_original, dias_atraso)
+taxa = float(input('Qual o valor da taxa por dia? '))
+valor_quitacao = calculo_divida(valor_original, dias_atraso, taxa)
 print(f'O valor para quitação atualizado com juros fica {valor_quitacao:.2f}')
