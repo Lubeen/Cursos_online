@@ -13,6 +13,9 @@ def calculo_divida(valor, dias, taxa):
 # Programa principal
 valor_original = float(input('Qual o valor original da dívida? '))
 dias_atraso = float(input('Quantos dias está em atraso? '))
-taxa = float(input('Qual o valor da taxa por dia? '))
+taxa = input('Qual o valor da taxa por dia? '.replace(",", "."))
+if taxa.isnumeric() and ',' in taxa:
+    taxa = float()
+
 valor_quitacao = calculo_divida(valor_original, dias_atraso, taxa)
 print(f'O valor para quitação atualizado com juros fica {valor_quitacao:.2f}')
