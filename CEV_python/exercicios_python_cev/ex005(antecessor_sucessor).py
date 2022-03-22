@@ -6,6 +6,6 @@ def antecessor_sucessor(n1, n2):
 
 
 # Programa principal
-n1 = int(input('digite um numero'))
-n2 = int(input('Digite outro numero'))
+n1 = int(input('digite um numero: '))
+n2 = int(input('Digite outro numero: '))
 antecessor_sucessor(n1,n2)
