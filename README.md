@@ -1,2 +1,2 @@
 # Estudos
-Esse repositorio é sobre estudos para programação web com python
+Esse repositorio é sobre estudos em geral sobre programação python
