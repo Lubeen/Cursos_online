@@ -1,0 +1,4 @@
+semana do pystack, o objetivo é desenvolver uma aplicação com python e django
+dias 04/04/2022 as 06:00h
+06/04/2022 as 06:00h
+08/04/2022 as 06:00h
