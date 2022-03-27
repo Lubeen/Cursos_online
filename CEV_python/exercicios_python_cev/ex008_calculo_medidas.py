@@ -1,4 +1,3 @@
-
 def calculo_medidas(*num):
     lista = []
     for c in range(1,7):
