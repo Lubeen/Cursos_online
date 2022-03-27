@@ -1,9 +1,17 @@
-medidas = float(input('Digite um número :'))
-dam = medidas / 10
-hm = medidas / 100
-km = medidas / 1000
-dm = medidas * 10
-cm = medidas * 100
-mm = medidas * 1000
-print('Seu número em metros é {} \n'.format(medidas))
-print('além disso em dam é {:.0f} em hm é {:.0f} em km é {:.0f} em dm é {:.0f} em cm é {:.0f} e em mm é {:.0f}'.format(dam,hm,km,dm,cm,mm))
+
+def calculo_medidas(*num):
+    lista = []
+    for c in range(1,7):
+        medidas = float(input('Digite um número :'))
+        lista.append(medidas)    
+    dam = lista[0] / 10
+    hm = lista[1] / 100
+    km = lista[2] / 1000
+    dm = lista[3] * 10
+    cm = lista[4] * 100
+    mm = lista[5] * 1000
+    return {'dam':dam, 'hm':hm, 'km':km, 'dm':dm, 'cm':cm, 'mm':mm}
+
+
+print(calculo_medidas())
+
