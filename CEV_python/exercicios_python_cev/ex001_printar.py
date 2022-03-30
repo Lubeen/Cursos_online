@@ -1,6 +1,3 @@
-# Transformando o ex001 em função
-
-
 def printar(frase):
     print(frase)
 

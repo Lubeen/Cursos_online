@@ -1,5 +1,3 @@
-# Dobro, Triplo, Raiz Quadrada
-
 def dobro_triplo_raiz(num):
     dobro = num * 2
     triplo = num * 3

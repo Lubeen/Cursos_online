@@ -1,4 +1,3 @@
-# Métodos de strings
 def metodos_de_string(*n):
     dados['alfanumerico'] = n1.isalnum
     dados['padrao ASCI'] = n1.isascii()
