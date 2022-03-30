@@ -1,4 +1,3 @@
-# Média Aritmétic
 import statistics
 def media_aluno(lista):
     media = statistics.mean([lista])
@@ -6,7 +5,6 @@ def media_aluno(lista):
         return print(f'Parabens sua media é {media} e voce esta APROVADO!')
     else:
         return print(f'Infelizmente sua media foi {media} e voce esta REPROVADO!')
-
 
 
 # Programa principal
