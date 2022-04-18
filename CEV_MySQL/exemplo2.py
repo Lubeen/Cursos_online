@@ -1,7 +1,7 @@
 #Godofredo  32 anos masc 78.5 Kg 1.83m Brasil
 #Dolores 30 anos Fem 52.3 Kg 1.65m México
 #Godolores 3 anos Fem 25.8 Kg 0.89m EUA
-#banco de dados são colecoes de dados, que sao de valroes diferentes, mas caracteristicas iguais, e são separados por tabelas, os dados nas tabelas são chamados de registros
+#banco de dados são colecoes de dados, que sao de valooes diferentes, mas caracteristicas iguais, e são separados por tabelas, os dados nas tabelas são chamados de registros
 #Criamos o banco de dados com #create database cadastro; e drop database cadastro; para apagar o banco de dados
 #As caracteristicas em comum nas tabelas tem o nome de campos
 #Banco de dados contem tabelas, tabelas contem registros e registros são compostos de campos
