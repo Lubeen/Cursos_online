@@ -15,8 +15,8 @@ update cursos
 set nome = 'Java',carga = '40', ano = '2015'
 where idcurso = '5'
 limit 1;
-
 O comando update altera as linhas, porém não as exclui
+
 delete from cursos
 where idcurso = '10';
 para deletar uma linha ou tupla ou registro
