@@ -53,4 +53,30 @@ Resposta:
 select count(nome) from gafanhotos
 where sexo = 'f' and altura > '1.90';
 
+exercicio 10
+Uma lista com as profissoes dos gafanhotos e seus respectivos quantitativos:
+Resposta:
+select profissao, sexo, count(nome) from gafanhotos
+where sexo =  'm'
+group by profissao;
+#Acredito que o metodo count() só funcione com group by, quando tentei com distinct nao deu certo
+
+
+exercicio 11
+Quantos gafanhotos homens e quantas mulheres nasceram após 2005-01-01:
+Resposta:
+select sexo, count(sexo) from gafanhotos
+where nascimento >= '2005-01-01' 
+group by sexo;
+
+
+exercicio 12
+Uma lista com os gafanhotos que nasceram fora do Brasil, mostrando o país de origem e o total de pessoas nascidas lá.
+Só nos interessam os países que tiverem mais de 3 gafanhotos com essa nacionalidade:
+
+exercicio 13
+Uma lista agrupada pela altura dos gafanhotos, mostrando quantas pessoas pesam mais de 100g e que estão acima da média de altura 
+de todos os cadastrados:
+
+
 """
