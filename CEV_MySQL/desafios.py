@@ -73,10 +73,24 @@ group by sexo;
 exercicio 12
 Uma lista com os gafanhotos que nasceram fora do Brasil, mostrando o país de origem e o total de pessoas nascidas lá.
 Só nos interessam os países que tiverem mais de 3 gafanhotos com essa nacionalidade:
+Resposta:
+use cadastro;
+select nacionalidade, count(nacionalidade) from gafanhotos
+where not nacionalidade =  'brasil'
+group by nacionalidade
+having count(nacionalidade) >= 3;
+
 
 exercicio 13
-Uma lista agrupada pela altura dos gafanhotos, mostrando quantas pessoas pesam mais de 100g e que estão acima da média de altura 
+Uma lista agrupada pela altura dos gafanhotos, mostrando quantas pessoas pesam mais de 100kg e que estão acima da média de altura 
 de todos os cadastrados:
+Resposta:
+use cadastro;
+select altura, count(*) from gafanhotos
+where peso > '100'
+group by altura
+having altura > (select avg(altura) from gafanhotos)
+order by count(nome) desc, altura;
 
 
 """
